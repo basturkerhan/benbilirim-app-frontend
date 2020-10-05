@@ -1,0 +1,102 @@
+$border-color: rgba(0,0,0,0.1)
+$font-family: 'Helvetica', sans-serif
+
+html 
+  box-sizing: border-box
+  font-size: 16px
+
+html,
+body 
+  margin: 0
+  padding: 0
+  height: 100%
+
+*,
+*:before,
+*:after 
+  box-sizing: inherit
+  font-family: $font-family
+
+nav
+    border-bottom: 1px solid $border-color
+    background-color: #fff
+    font-weight: 400
+
+    .navbar-brand
+        color: red
+
+    .container
+        margin-top: 0.5rem
+        margin-bottom: 0.5rem
+
+    .btn
+        font-weight: 500
+
+.profile
+  color: #fff !important
+
+.authFooterMsg
+  display: flex
+  justify-content: center
+  margin-top: 1rem
+  color: red
+
+
+
+.footer
+  border-top: 1px solid $border-color
+
+.authFooterMsg, .forgotpassword
+  cursor: pointer
+
+.video
+  width: 100%
+  position: relative
+
+  .next-icon
+    width: 6rem
+    height: auto
+    position: absolute
+    right: 1rem
+    top: calc(50% - 3rem)
+    cursor: pointer
+
+  .btn
+    border: 0px 3px solid #ddd
+    border-radius: 0
+    -webkit-box-shadow: 0px 5px 3px 0px rgba(0,0,0,0.3)
+    -moz-box-shadow: 0px 5px 3px 0px rgba(0,0,0,0.3)
+    box-shadow: 0px 5px 3px 0px rgba(0,0,0,0.3)
+
+  .counter-area
+    .counter
+      position: absolute
+      top: 1rem
+      right: 1rem
+
+    .select
+      position: absolute
+      right: 1rem
+      left: 1rem
+      bottom: 1rem
+
+
+.footer-list
+  li
+    list-style: none
+    padding-top: 1rem
+        
+
+.app-loading
+  background-color: red
+  height: 20rem
+  display: flex
+  justify-content: center
+  align-items: flex-end
+
+  img
+    width: 8rem
+    height: auto
+
+.page-item
+  cursor: pointer
